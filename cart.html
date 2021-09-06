@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppin Cart</title>
+    <style>
+        .auto{
+            width: 55%;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="auto">
+        <h1>Create Simple Shopping Cart With set Local Storage</h1>
+        <input id="product" type="text" placeholder="Products Name">
+        <input id="price" type="text" placeholder="Products Price">
+        <button onclick="getInput()">Add Items</button>
+        <br>
+        <ul id="items"></ul>
+        <br>
+        <button onclick="removeProducts()">Place Order</button>
+    </div>
+
+    <script src="Js/cart.js"></script>
+</body>
+</html>
